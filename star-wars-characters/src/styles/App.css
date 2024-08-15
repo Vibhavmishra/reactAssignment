@@ -1,0 +1,43 @@
+.App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 80px;
+    pointer-events: none;
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .search-filter {
+    margin: 20px;
+  }
+  
+  .search-filter input,
+  .search-filter select {
+    margin: 0 10px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .character-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .pagination-container {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
